@@ -10,5 +10,8 @@ char *string_toupper(char *);
 char *cap_string(char *);
 int _putchar(char);
 void print_number(int n);
+void print_buffer(char *b, int size);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+char *rot13(char *a);
 
 #endif
