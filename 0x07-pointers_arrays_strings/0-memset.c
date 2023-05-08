@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_memset - Fill memory with a specific value 
+*_memset - Fill memory with a specific value
 *@s: Starting address of memory to be filled
 *@b: desired value
 *@n: Bytes number to be changed
