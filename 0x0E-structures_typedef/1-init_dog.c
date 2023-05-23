@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "dog.h"
 
 /**
@@ -7,13 +6,16 @@
  * @name: pointer to dog name
  * @age: age of the dog
  * @owner: pointer to the dog owner
+ *
+ * Return: no return
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == NULL)
-		d = malloc(sizeof(struct dog));
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
+	if (d)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
